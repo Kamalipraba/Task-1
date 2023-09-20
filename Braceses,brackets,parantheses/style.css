@@ -1,0 +1,76 @@
+#mainBox {
+    width: 60%;
+    height: 400px;
+    background-color: mediumturquoise;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+    align-items: center;
+    border-radius: 30px;
+  }
+
+  .title {
+    color: rgb(139, 0, 65);
+    display: flex;
+    align-items: center;
+    left: 430px;
+    top: 20px;
+    position: relative;
+    font-weight: bold;
+    font-size: 35px;
+    /* margin-top: 10px; */
+    /* margin-bottom: 5px; */
+  }
+  
+  #mainBox > div:nth-child(1) {
+    width: 600px;
+    height: 50px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+  }
+  
+  #mainBox > div:nth-child(2) {
+    position: absolute;
+    left: 250px;
+    top: 200px;
+  }
+  
+  input {
+    width: 60%;
+    height: 95%;
+    border-radius: 30px;
+    font-size: 25px;
+    font-weight: bold;
+
+  }
+  button {
+    background-color: aliceblue;
+    border-radius: 25px;
+    width: 30%;
+    height: 95%;
+    font-weight: bold;
+    color: green;
+    font-size: 15px;
+  }
+  
+  button:hover {
+    background-color: black;
+  }
+  
+  button:active {
+    background-color: green;
+  }
+  
+  #mainBox > div:nth-child(2) {
+    width: 400px;
+    height: 50px;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: purple;
+  }
+
+  
